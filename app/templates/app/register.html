@@ -35,10 +35,14 @@
         <input class="p-1 border-2 border-sky-300 text-xl mb-4 rounded w-full" required type="number"
             name="phone_number" placeholder="Phone Number"><br>
         <label class="text-gray-600" for="address">Address</label><br>
-        <textarea class="p-1 border-2 border-sky-300 text-xl mb-4 rounded w-full" required type="text" name="address"
-            placeholder="Address"></textarea><br>
-        <label class="text-gray-600" for="state">State</label><br>
-        <select name="state" class="p-1 border-2 border-sky-300 text-xl mb-4 rounded w-full bg-white">
+        <select name="address" class="p-1 border-2 border-sky-300 text-xl mb-4 rounded w-full bg-white">
+            <option value="" disabled selected>Select your Address</option>
+            <option value="Localite">Localite</option>
+            <option value="Hostel">Hostel</option>
+            <!-- <option value="transgender">Transgender</option> -->
+        </select>
+        <!-- <label class="text-gray-600" for="state">State</label><br> -->
+        <!-- <select name="state" class="p-1 border-2 border-sky-300 text-xl mb-4 rounded w-full bg-white">
             <option value="" disabled selected>Select a State</option>
             <option value="Andhra Pradesh">Andhra Pradesh</option>
             <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -68,7 +72,7 @@
             <option value="Uttar Pradesh">Uttar Pradesh</option>
             <option value="Uttarakhand">Uttarakhand</option>
             <option value="West Bengal">West Bengal</option>
-        </select>
+        </select> -->
         <label class="text-gray-600" for="gender">Gender</label><br>
         <select name="gender" class="p-1 border-2 border-sky-300 text-xl mb-4 rounded w-full bg-white">
             <option value="" disabled selected>Select your gender</option>
